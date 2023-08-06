@@ -10,12 +10,14 @@ import { CommonModule } from '@angular/common';
 import {MatAutocompleteModule} from '@angular/material/autocomplete'; 
 import {MatInputModule} from '@angular/material/input';
 import {MatFormFieldModule} from '@angular/material/form-field';
+import { HeaderComponent } from './header/header.component';
 
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
+  declarations: [	
+    AppComponent,
+      HeaderComponent
+   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
