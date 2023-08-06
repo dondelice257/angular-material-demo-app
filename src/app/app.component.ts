@@ -8,6 +8,5 @@ import { FormControl } from '@angular/forms';
 })
 export class AppComponent {
   title = 'angular-material-demo-app';
-  myControl = new FormControl('');
-  options: string[] = ['One', 'Two', 'Three'];
+
 }
