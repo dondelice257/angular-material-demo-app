@@ -12,6 +12,7 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatBottomSheetModule} from '@angular/material/bottom-sheet'; 
 import {MatDividerModule} from '@angular/material/divider';
 import {MatButtonToggleModule} from '@angular/material/button-toggle'; 
+import {MatCardModule} from '@angular/material/card';
 
 
 
@@ -31,6 +32,7 @@ import {MatButtonToggleModule} from '@angular/material/button-toggle';
     MatBottomSheetModule,
     MatDividerModule,
     MatButtonToggleModule,
+    MatCardModule
 
     
   ],
