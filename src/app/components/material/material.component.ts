@@ -10,7 +10,10 @@ export class MaterialComponent implements OnInit {
 
   myControl = new FormControl('');
   options: string[] = ['One', 'Two', 'Three', 'four', 'Five', 'Six', 'Seven', 'Eight', 'Nine', 'ten'];
-
+  checked = false;
+  indeterminate = false;
+  labelPosition: 'before' | 'after' = 'after';
+  disabled = false;
   constructor() { }
 
   ngOnInit() {
