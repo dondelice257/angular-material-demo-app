@@ -9,11 +9,16 @@ import { FormControl } from '@angular/forms';
 export class MaterialComponent implements OnInit {
 
   myControl = new FormControl('');
-  options: string[] = ['One', 'Two', 'Three'];
+  options: string[] = ['One', 'Two', 'Three', 'four', 'Five', 'Six', 'Seven', 'Eight', 'Nine', 'ten'];
 
   constructor() { }
 
   ngOnInit() {
+  }
+  hidden = true;
+
+  toggleBadgeVisibility() {
+    this.hidden = !this.hidden;
   }
 
 }
