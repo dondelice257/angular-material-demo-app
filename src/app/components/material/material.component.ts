@@ -15,7 +15,7 @@ export class MaterialComponent implements OnInit {
 
   ngOnInit() {
   }
-  hidden = true;
+  hidden = false;
 
   toggleBadgeVisibility() {
     this.hidden = !this.hidden;
